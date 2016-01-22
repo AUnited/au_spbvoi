@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>St.Petersburg VOI</name>
+    <creationDate>2016-01-22</creationDate>
+    <version>1.0-alpha</version>
+    <author>AUnited Co Ltd</author>
+    <authorUrl>info@aunited.ru</authorUrl>
+    <description>Template for Saint Petersburg VOI</description>
+    <files>
+        <folder>css</folder>
+		<folder>fonts</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+		<folder>js</folder>
+        <folder>library</folder>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>templateDetails.xml</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>header</position>
+		<position>header</position>
+		<position>top</position>
+		<position>top-rollover</position>
+		<position>top-menu</position>
+		<position>top-1</position>
+		<position>top-2</position>
+		<position>top-3</position>
+		<position>left-1</position>
+		<position>left-2</position>
+		<position>right-1</position>
+		<position>right-2</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>bottom-3</position>
+		<position>bottom-menu</position>
+		<position>bottom-rollover</position>
+		<position>bottom</position>
+		<position>info</position>
+		<position>search</position>
+		<position>footer</position>
+        
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="basic"/>
+        </fields>
+    </config>
+</extension>
